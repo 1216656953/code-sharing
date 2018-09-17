@@ -1,6 +1,6 @@
 package com.lego.utils.treenode;
 
-public class Bin {
+public class PostTraversal {
 	static int index = 0;		//全局变量，用于遍历before序列
 	public static void main(String[] args) {
 		//要求数据，结果是EBDGACFH
@@ -11,8 +11,8 @@ public class Bin {
 		//String before = new String("ABDGHCEIF");	//先序序列
 		//String middle = new String("GDHBAEICF");	//中序序列
 		
-		Bin bin = new Bin();
-		bin.getAfter(before, middle);
+		PostTraversal postTraversal = new PostTraversal();
+		postTraversal.getAfter(before, middle);
 	}
  
 	public void getAfter(String before, String middle){

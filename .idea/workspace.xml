@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8074b6-556d-4f64-a380-12705c98913c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lego/utils/string/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lego/utils/treenode/Bin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lego/utils/string/Demo.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,30 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lego/utils/treenode/Bin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="161">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +47,9 @@
         <option value="$PROJECT_DIR$/src/com/lego/utils/string/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/lego/utils/string/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lego/utils/treenode/Bin.java" />
+        <option value="$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/com/lego/utils/string/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java" />
       </list>
     </option>
   </component>
@@ -73,11 +62,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="13" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="462" />
+    <option name="y" value="41" />
     <option name="width" value="1346" />
-    <option name="height" value="704" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -86,6 +75,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,11 +109,19 @@
               <item name="lego" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lego" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lego" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lego" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -150,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bin">
+  <component name="RunManager" selected="Application.Demo2 (1)">
     <configuration name="Bin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lego.utils.treenode.Bin" />
       <module name="lego" />
@@ -160,6 +158,30 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lego.utils.string.Demo1" />
+      <module name="lego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lego.utils.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lego.utils.string.Demo2" />
+      <module name="lego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lego.utils.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo2" />
+      <module name="lego" />
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lego.utils.string.Main" />
@@ -171,23 +193,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lego" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Bin" />
+      <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.Demo2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2 (1)" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Bin" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -204,20 +223,23 @@
       <workItem from="1536579944768" duration="26000" />
       <workItem from="1536579992611" duration="1859000" />
       <workItem from="1536581907151" duration="2096000" />
-      <workItem from="1536717314128" duration="535000" />
+      <workItem from="1536717314128" duration="2302000" />
+      <workItem from="1536825777192" duration="3355000" />
+      <workItem from="1536979635397" duration="3070000" />
+      <workItem from="1536998023999" duration="1153000" />
+      <workItem from="1537186688954" duration="247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4516000" />
+    <option name="totallyTimeSpent" value="14108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="92" y="0" width="1346" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -225,20 +247,21 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19964974" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28180355" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2667185" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18679549" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -251,7 +274,59 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java</url>
+          <line>41</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -268,10 +343,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/最大字典子串.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/treenode/Bin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -282,10 +357,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/treenode/Bin.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="189">
+          <caret line="2745" column="18" selection-start-line="2745" selection-start-column="18" selection-end-line="2745" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
