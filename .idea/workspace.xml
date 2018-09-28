@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f8074b6-556d-4f64-a380-12705c98913c" name="Default" comment="" />
+    <list default="true" id="6f8074b6-556d-4f64-a380-12705c98913c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/lego/utils/other/LRUCacheMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lego/utils/string/StringTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,8 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SonString.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="LRUCacheMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lego/utils/other/LRUCacheMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTransport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/StringTransport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SonString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/SonString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -44,6 +66,9 @@
         <option value="$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java" />
         <option value="$PROJECT_DIR$/src/com/lego/utils/string/SonString.java" />
         <option value="$PROJECT_DIR$/src/com/lego/utils/treenode/PostTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/lego/utils/other/LRUCacheMain1.java" />
+        <option value="$PROJECT_DIR$/src/com/lego/utils/other/LRUCacheMain.java" />
+        <option value="$PROJECT_DIR$/src/com/lego/utils/string/StringTransport.java" />
       </list>
     </option>
   </component>
@@ -56,9 +81,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="507" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="53" />
+    <option name="y" value="24" />
     <option name="width" value="923" />
     <option name="height" value="674" />
   </component>
@@ -70,8 +95,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,7 +137,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lego" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lego" type="b2602c69:ProjectViewProjectNode" />
@@ -121,7 +146,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lego" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="treenode" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="LRUCacheMain.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="lego" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lego" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lego" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +173,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\eclipse for jee\lego\src\com\lego\utils\other" />
       <recent name="D:\eclipse for jee\lego\src\com\lego\utils\string" />
+      <recent name="D:\eclipse for jee\lego\src\com\lego\utils\array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,14 +270,16 @@
       <workItem from="1536979635397" duration="3070000" />
       <workItem from="1536998023999" duration="1153000" />
       <workItem from="1537186688954" duration="1133000" />
+      <workItem from="1538034510577" duration="128000" />
+      <workItem from="1538104397259" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14994000" />
+    <option name="totallyTimeSpent" value="15601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="14" width="1346" height="674" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -253,10 +292,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19964974" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2809612" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28502417" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2667185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,47 +324,18 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/SonString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/最大字典子串.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -342,30 +352,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo3.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/Demo1.java" />
     <entry file="file://$PROJECT_DIR$/src/com/lego/utils/treenode/PostTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -380,13 +369,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/ConsumerAndProducter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/array/ShuZuJiaoJi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -394,6 +381,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/other/LRUCacheMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lego/utils/string/StringTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
